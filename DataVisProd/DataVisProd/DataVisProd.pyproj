@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>25529327-7fae-4b59-8e58-860525c483ea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DataVisProd.py</StartupFile>
+    <StartupFile>rw_visual.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DataVisProd.py" />
+    <Compile Include="Random_Walk.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rw_visual.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
