@@ -1,9 +1,9 @@
 from random import choice
 
 class RandomWalk:
-    """A class to generate random walks"""
+    """A class to generate random walks""" 
 
-    def _init_(self, num_points=5000):
+    def __init__(self, num_points=5000):
         """Initialize attributes of a walk."""
         self.num_points = num_points
 
