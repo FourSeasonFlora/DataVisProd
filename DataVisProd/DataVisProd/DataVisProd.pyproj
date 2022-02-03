@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>25529327-7fae-4b59-8e58-860525c483ea</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pollen_RandomWalk.py</StartupFile>
+    <StartupFile>Rolling Dice.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,10 +22,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DataVisProd.py" />
+    <Compile Include="die.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Pollen_RandomWalk.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Random_Walk.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rolling Dice.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="rw_visual.py">
